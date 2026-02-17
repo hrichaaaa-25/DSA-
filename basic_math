@@ -1,0 +1,11 @@
+// given number n find out and return the number of digits present in a number.
+//key ideology = the number of digits = the number of times the digit extracted , we can use the count variable
+int count (int n)
+{
+int count=0;
+ while (n >0)
+  n=n%10;
+	n=n/10;
+	count++;
+	}
+	print (count)
